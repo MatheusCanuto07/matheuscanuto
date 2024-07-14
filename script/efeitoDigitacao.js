@@ -1,5 +1,5 @@
 function typeWriter(elemento, texto) {
-  elemento.innerHTML = 'E eu sou um ';
+  elemento.innerHTML = 'Soluções digitais personalizadas para';
 
   var textoSlipt = texto.split('');
 
@@ -10,6 +10,7 @@ function typeWriter(elemento, texto) {
 }
 
 var textosQueVaoAparecer = [
+  " aumentar a acertividade do seu negócio",
   "desenvolvedor full stack",
   "resolvedor de problemas",
   "web Design",

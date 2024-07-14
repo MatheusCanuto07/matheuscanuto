@@ -293,9 +293,9 @@ a {
 .sub-title-chamada {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
-  font-size: 30px;
+  font-size: 26px;
   line-height: normal;
-  color: #ffffff;
+  color: white;
 }
 
 .btn-quero-saber-mais {
@@ -427,25 +427,28 @@ a {
 }
 
 #btn-entrar-contato {
-  width: 592px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 8px;
-  background-color: #846aff;
+  background-color: var(--verde);
   padding: 14px 32px;
   border-radius: 4px;
   border: none;
-  font-family: Roboto;
+  font-family: "Plus Jakarta Sans";
   font-weight: 700;
   font-size: 16px;
   line-height: normal;
   text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
+  color: black;
 }
 
-footer {
+#btn-entrar-contato p{
+  font-family: "Plus Jakarta Sans";
+}
+
+.footer-commom {
   background-color: #000;
   color: white;
 }
@@ -862,4 +865,166 @@ footer {
   line-height: normal;
   color: #000000;
   border: none;
+}
+
+.letra-verde{
+  color: var(--verde);
+}
+
+.text-sobre-mim{
+  margin-bottom: 0px !important;
+}
+
+.text-sobre-mim > h3:first-of-type {
+  margin-bottom: 6px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  font-size: 22px;
+  line-height: normal;
+  color: #000000;
+}
+
+.text-sobre-mim > h1 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: normal;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+.text-sobre-mim > h3:nth-of-type(2) {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: normal;
+  color: #000000;
+}
+
+.text-sobre-mim > p:first-of-type {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: normal;
+  color: #000000;
+}
+
+.text-sobre-mim > p:nth-of-type(2) {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
+  color: #000000;
+}
+
+.card-servico{
+  width: 100%;
+  height: 345px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0 rgb(0 0 0 / 0.25);
+}
+
+.text-card-servico h1{
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  color: #000000;
+  margin-top: 16px;
+}
+
+.text-card-servico p{
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  color: #000000;
+  margin-top: 16px;
+}
+
+.img-card-servico{
+  margin-top: 27px;
+  width: 103px;
+  height: 105px;
+  object-fit: cover;
+}
+
+.secao-cinza{
+  background-color: #f5f5f5;
+}
+
+.card-projeto{
+  box-shadow: 0px 4px 4px 0 rgb(0 0 0 / 0.25);
+  background-color: #ffffff;
+  padding-top: 41px;
+
+  border-radius: 15px;
+}
+
+.card-projeto header h1{
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: normal;
+  color: #000000;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.card-projeto .body p{
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  color: #000000;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.card-projeto footer{
+  background-color: #aeff00;
+  padding-left: 27px;
+  padding-right: 27px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.btn-ver-projeto{
+  width: 115.7204818725586px;
+  height: 47px;
+  background-color: #2ba4ff;
+  padding: 11px 14px 16px 14px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-ver-projeto a p{
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+  color: #ffffff;
+  margin-bottom: 0px !important;
+}
+
+.card-ver-todos{
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: normal;
+  text-decoration-line: underline;
+  color: #2ba4ff;
+}
+
+.section-entre-contato div input{
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+  color: #7c7c8a;
+}
+
+.section-entre-contato div button{
+  font-family: "Plus Jakarta Sans";
 }

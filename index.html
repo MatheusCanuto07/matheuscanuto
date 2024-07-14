@@ -16,6 +16,7 @@
 </head>
 
 <body>
+  <!-- col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2 -->
   <div class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href=""><img src="imgs/Logo/Logo para fundo preto.png" alt=""></a>
@@ -46,18 +47,18 @@
   <div class="section-apresentacao">
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
           <h1 class="title-chamada">
-            Ajudando empresas a se digitalizarem com soluções inovadoras
+            Ajudando empresas a se <span class="letra-verde">digitalizarem</span> com soluções inovadoras
           </h1>
           <h2 id="sub-title-digitacao1" class="mt-4 sub-title-chamada">
-            Soluções digitais personalizadas para o seu acertividade do seu negócio
+            Soluções <span class="letra-verde">digitais personalizadas</span> para o seu acertividade do seu negócio
           </h2>
           <button class="btn-quero-saber-mais mt-4">
             <p class="tira-margem">Quero saber mais</p>
           </button>
         </div>
-        <div class="col-6 d-flex justify-content-end">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-end">
           <img class="h-75 img-fluid img-chamada" src="imgs/image.png" alt="">
         </div>
       </div>
@@ -69,104 +70,125 @@
     </div>
   </div> -->
   <div class="container mt-5">
-    <h1 class="text-center title-secao-generico">Sobre mim</h1>
-    <div class="row justify-content-end">
-      <div class="col-8">
-        <p class="text-generic mt-2">
-          Desenvolvedor web full stack, cursando sistema de informação na PUC, gosto de arquitetura e padrões de
-          projeto,
-          melhoria de processos, e café bem forte, sou do time com açucar 😜
+    <div class="row justify-content-center">
+      <div class="col-12 text-sobre-mim">
+        <h3>Sobre mim</h3>
+        <h1>Matheus Canuto</h1>
+        <h3>Desenvolvedor Web</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eveniet qui ut quas porro possimus quo facilis voluptate quis commodi quia adipisci, eaque nostrum fugiat earum corrupti in, numquam, dignissimos sapiente maxime totam. Repudiandae laborum eligendi eum esse nulla deleniti.
+        </p>
+        <p>
+          Procurando minhas redes <br>
+          Canto inferior direito 😜
         </p>
       </div>
     </div>
     <div class="row">
-      <h1 class="text-center title-secao-generico">Blog</h1>
-      <div class="col-4">
-        <div class="cardMaisSimples">
-          <div class="header">
-            <img class="img-fluid rounded-3" src="imgs/padraodeprojeto.png" alt="Img padrão de projeto">
-          </div>
-          <div class="info">
-            <p class="title">Padrão de projeto Repository</p>
+      <h1 class="text-center title-secao-generico">Projetos</h1>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card-projeto">
+          <header class="">
+            <h1>Velozes e alugados</h1>
+          </header>
+          <div class="body">
             <p>
-              O padrão de projeto Repository abstrai o acesso a dados, proporcionando uma interface para operações
-              CRUD, separando a lógica de negócios da persistência, facilitando testes e manutenção do código.
+              Trabalho acadêmico desenvolvido para a disciplina “Trabalho interdisciplinar para processos de negócios” s, é uma plataforma que tem como objetivo unir agências de veículos e clientes, é possível realizar “CRUDs” com os veículos e caso o usuário não seja um administrador ele pode visualizar os carros e realizar um aluguel
             </p>
           </div>
-          <div class="footer">
-            <p class="tag">#ARQUITETURADEPROJETO #CSHARP #BACK-END </p>
-            <button type="button" class="action">Ver artigo</button>
-          </div>
+          <footer class="w-100 d-flex justify-content-between pt-3 pb-3">
+            <div>
+              <div class="d-flex">
+                <p class="tira-margem">#JavaScript</p>
+                <p class="tira-margem ms-3">#VUE</p>
+              </div>
+              <div class="d-flex">
+                <p class="tira-margem">#Python</p>
+                <p class="tira-margem ms-3">#CSS</p>
+              </div>
+            </div>
+            <div class="">
+              <button class="btn-ver-projeto"><a class="" href="#"><p>Ver projeto</p></a></button>
+            </div>
+          </footer>
         </div>
       </div>
-      <div class="col-4">
-        <div class="cardMaisSimples">
-          <div class="header">
-            <img class="img-fluid rounded-3" src="imgs/polimorfismo.jpg" alt="Img padrão de projeto">
-          </div>
-          <div class="info">
-            <p class="title">Polimorfismo, o que significa se adaptar?</p>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card-projeto">
+          <header class="">
+            <h1>Velozes e alugados</h1>
+          </header>
+          <div class="body">
             <p>
-              O polimorfismo permite que objetos de diferentes classes sejam tratados através da mesma interface,
-              facilitando a flexibilidade e extensibilidade do código ao permitir a implementação de métodos de formas
-              variadas.
+              Trabalho acadêmico desenvolvido para a disciplina “Trabalho interdisciplinar para processos de negócios” s, é uma plataforma que tem como objetivo unir agências de veículos e clientes, é possível realizar “CRUDs” com os veículos e caso o usuário não seja um administrador ele pode visualizar os carros e realizar um aluguel
             </p>
           </div>
-          <div class="footer">
-            <p class="tag">#ARQUITETURADEPROJETO #CSHARP #BACK-END </p>
-            <button type="button" class="action">Ver artigo</button>
-          </div>
+          <footer class="w-100 d-flex justify-content-between pt-3 pb-3">
+            <div>
+              <div class="d-flex">
+                <p class="tira-margem">#JavaScript</p>
+                <p class="tira-margem ms-3">#VUE</p>
+              </div>
+              <div class="d-flex">
+                <p class="tira-margem">#Python</p>
+                <p class="tira-margem ms-3">#CSS</p>
+              </div>
+            </div>
+            <div class="">
+              <button class="btn-ver-projeto"><a class="" href="#"><p>Ver projeto</p></a></button>
+            </div>
+          </footer>
         </div>
       </div>
-      <div class="col-4">
-        <div class="cardMaisSimples">
-          <div class="header">
-            <img class="img-fluid rounded-3" src="imgs/componentes-vue-redes-717382744.jpg" alt="Img padrão de projeto">
-          </div>
-          <div class="info">
-            <p class="title">O que é um componente</p>
-            <p>
-              Um componente é uma unidade reutilizável de software que encapsula funcionalidade específica, com
-              interfaces bem definidas, facilitando a modularidade, manutenção e integração em aplicações maiores.
-            </p>
-          </div>
-          <div class="footer">
-            <p class="tag">#ARQUITETURADEPROJETO #CSHARP #BACK-END </p>
-            <button type="button" class="action">Ver artigo</button>
-          </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card-ver-todos d-flex justify-content-center align-items-center h-100 w-100">
+          <a href="#">Ver todos</a>
         </div>
       </div>
     </div>
   </div>
-  </div>
+
   <div class="container mt-5">
     <div class="row">
-      <h1 class="text-center title-secao-generico">Projetos</h1>
-      <div class="pai-options">
-        <button class="item-option" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLanding" aria-expanded="false"
-          aria-controls="collapseLanding">
-          Landing Pages
-        </button>
-        <button class="item-option" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFront" aria-expanded="false"
-          aria-controls="collapseFront">
-          Front-end
-        </button>
-      </div>
-      <div class="collapse" id="collapseLanding">
-        <div class="card card-body">
-          <p>Isso deve aparecer quando eu clicar em landing page</p>
+      <h1 class="text-center title-secao-generico mb-5">Serviços</h1>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card-servico">
+          <div class="d-flex justify-content-center">
+            <img class="img-card-servico img-fluid" src="/imgs/icones animados/monitor.gif" alt="">
+          </div>
+          <div class="text-card-servico">
+            <h1 class="text-center">Criação de sites institucionais</h1>
+            <p class="text-center"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, voluptate? Corporis fugit est molestiae velit. </p>
+          </div>
         </div>
       </div>
-      <div class="collapse" id="collapseFront">
-        <div class="card card-body">
-          <p>Isso deve aparecer quando eu clicar em front-end</p>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card-servico">
+          <div class="d-flex justify-content-center">
+            <img class="img-card-servico img-fluid" src="/imgs/icones animados/responsivo.gif" alt="">
+          </div>
+          <div class="text-card-servico">
+            <h1 class="text-center">Criação de Landing Pages </h1>
+            <p class="text-center"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, voluptate? Corporis fugit est molestiae velit. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card-servico">
+          <div class="d-flex justify-content-center">
+            <img class="img-card-servico img-fluid" src="/imgs/icones animados/estrutura-da-web.gif" alt="">
+          </div>
+          <div class="text-card-servico">
+            <h1 class="text-center">Desenvolvimento Web</h1>
+            <p class="text-center"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, voluptate? Corporis fugit est molestiae velit. </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <h1 class="text-center title-secao-generico">Canal</h1>
+      <h1 class="text-center title-secao-generico mt-5">Canal</h1>
       <div class="col d-flex justify-content-center">
         <div class="pai-video">
           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/q8zE3Ku5lyI"
@@ -177,14 +199,14 @@
       </div>
     </div>
     <div class="row">
-      <h1 class="text-center title-secao-generico">Entre em Contato</h1>
-      <form action="" class="d-flex justify-content-center">
+      <h1 class="text-center title-secao-generico mt-5 mb-3">Entre em Contato</h1>
+      <form action="" class="d-flex justify-content-center section-entre-contato">
         <div>
           <input placeholder="Nome" type="text" class="txtGenerico mb-4">
           <input placeholder="Seu e-mail" type="text" class="txtGenerico mb-4">
           <input placeholder="Assunto" type="text" class="txtGenerico mb-4">
           <input placeholder="Conteúdo" type="text" class="txtConteudoEmail mb-4">
-          <button id="btn-entrar-contato">Entrar em contato</button>
+          <button id="btn-entrar-contato"><p class="tira-margem">Enviar e-mail</p></button>
         </div>
       </form>
     </div>
@@ -192,7 +214,7 @@
 
   <div class="container-fluid mt-4">
     <div class="row">
-      <footer class="w-100">
+      <footer class="w-100 footer-commom">
         <p class="p-2 text-center tira-margem">&copy; 2024 Matheus Canuto. Todos os direitos reservados.</p>
       </footer>
     </div>
