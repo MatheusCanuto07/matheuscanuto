@@ -304,13 +304,14 @@ a {
   align-items: center;
   gap: 10px;
   background-color: #aeff00;
+  border: none;
   padding: 10px 40px;
-  border-radius: 4px;
+  border-radius: 10px;
   margin-bottom: 101px;
 }
 
 .btn-quero-saber-mais p {
-  font-family: "Archivo";
+  font-family: "Plus Jakarta Sans";
   font-weight: 500;
   font-size: 16px;
   line-height: normal;
@@ -401,10 +402,7 @@ a {
 }
 
 .txtGenerico {
-  width: 592px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  width: 100%;
   background-color: #ffffff;
   padding: 19px 24px;
   border-radius: 4px;
@@ -414,7 +412,7 @@ a {
 }
 
 .txtConteudoEmail {
-  width: 592px;
+  width: 100%;
   height: 150px;
   display: flex;
   gap: 10px;
@@ -660,7 +658,6 @@ a {
   position: fixed;
   bottom: 10px;
   right: 30px;
-
 }
 
 .card-fixed {
@@ -716,7 +713,7 @@ a {
   border-radius: 5px;
   padding: 5px;
   transition: all 0.3s;
-  color: rgb(255, 174, 0);
+  color: #000;
   background-color: rgba(255, 255, 255, 0.3);
   position: absolute;
   z-index: 9999;
@@ -756,24 +753,6 @@ a {
   transition: all 0.3s;
   height: 60px;
   width: 60px;
-}
-
-.iso-pro:hover span {
-  opacity: 1;
-}
-
-.iso-pro:hover span:nth-child(1) {
-  opacity: 0.2;
-}
-
-.iso-pro:hover span:nth-child(2) {
-  opacity: 0.4;
-  transform: translate(5px, -5px);
-}
-
-.iso-pro:hover span:nth-child(3) {
-  opacity: 0.6;
-  transform: translate(10px, -10px);
 }
 
 /* Card mais simples - Inicio */
@@ -904,12 +883,16 @@ a {
 .text-sobre-mim > p:first-of-type {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
-  font-size: 26px;
+  font-size: 22px;
   line-height: normal;
   color: #000000;
 }
 
-.text-sobre-mim > p:nth-of-type(2) {
+#exibirTexto{
+  color: var(--azulEscuro);
+}
+
+.text-sobre-mim > p:nth-of-type(3) {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
   font-size: 20px;
@@ -919,7 +902,6 @@ a {
 
 .card-servico{
   width: 100%;
-  height: 345px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 4px 4px 0 rgb(0 0 0 / 0.25);
@@ -939,7 +921,7 @@ a {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
   font-size: 16px;
-  line-height: normal;
+  line-height: 1.5;
   color: #000000;
   margin-top: 16px;
 }
@@ -1027,4 +1009,81 @@ a {
 
 .section-entre-contato div button{
   font-family: "Plus Jakarta Sans";
+}
+
+/* Breakpoints do Bootstrap */
+
+/* Extra pequeno (menos de 576px) */
+@media (max-width: 575.98px) {
+  .title-chamada{
+    margin-top: 30px;
+  }
+  .img-chamada{
+    height: 100% !important;
+    margin-top: 0px;
+  }
+  .btn-quero-saber-mais{
+    margin-bottom: 35px;
+  }
+  .card-fixed ul {
+    padding: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+/* Pequeno (576px e acima) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .title-chamada{
+    margin-top: 30px;
+  } 
+  .img-chamada{
+    height: 100% !important;
+    margin-top: 0px;
+  }
+  .btn-quero-saber-mais{
+    margin-bottom: 35px;
+  }
+  .card-fixed ul {
+    flex-direction: row;
+  }
+}
+
+/* Médio (768px e acima) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .title-chamada{
+    margin-top: 50px;
+  } 
+  .img-chamada{
+    height: 100% !important;
+    margin-top: 0px;
+  }
+  .btn-quero-saber-mais{
+    margin-bottom: 35px;
+  }
+}
+
+/* Grande (992px e acima) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .img-chamada{
+    height: 75% !important;
+  }
+}
+
+/* Extra grande (1200px e acima) */
+@media (min-width: 1200px) { 
+  .img-chamada{
+    height: 75% !important;
+  }
+}
+
+.img-card-fixo{
+  width: 60px;
+  height: 60px;
 }
