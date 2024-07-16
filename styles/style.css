@@ -299,6 +299,7 @@ a {
 }
 
 .btn-quero-saber-mais {
+  width: 225px;
   display: flex;
   justify-content: center;
   align-items: center;
